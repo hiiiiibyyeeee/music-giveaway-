@@ -16,7 +16,7 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
-    .setAuthor(`Show Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
+    .setAuthor(`Reyna Bot`, `https://cdn.discordapp.com/avatars/758785943426564187/0d2e89ab452cb53f5cb7eaf14295470b.png?size=2048`)
     .setDescription(`
 
 **User Commands**
@@ -33,14 +33,14 @@ module.exports = {
 
 **Fun Commands**
 \`${PREFIX}lock\` - \`${PREFIX}unlock\` - \`${PREFIX}ban\`
-\`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway\`
+\`${PREFIX}unban\` - \`${PREFIX}slowmode\` - \`${PREFIX}giveaway=!start\`
 
 **Links**
-[support](https://discord.gg/Zj5SFafHKG)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=758785943426564187&permissions=1076132928&scope=bot)
+[support](https://discord.gg/K8SSqweuSH)    -    [invite](https://discord.com/api/oauth2/authorize?client_id=802995353209012234&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("#146DF6");
+   .setColor("RANDOM");
    message.react("✅")
     return message.channel.send(helpEmbed).catch(console.error);
 
