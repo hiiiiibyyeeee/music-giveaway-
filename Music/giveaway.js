@@ -53,7 +53,7 @@ Hosted by: ${message.author}`)
       channel.send(
         `**The winner of the giveaway for**
 #️⃣|${channel}
-<a:winner:817425780992114708>|${message.author}`
+<a:821787080190460005:871813937933467668>|${message.author}`
       );
     }, ms(args[0]));
   },
