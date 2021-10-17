@@ -10,7 +10,7 @@ module.exports = {
   name: "help",
   aliases: ["h"],
   cooldown: 8,
-  description: "**Reyna Help**",
+  description: "**Aeon Bot**",
   execute(message) {
     let commands = message.client.commands.array();
 
